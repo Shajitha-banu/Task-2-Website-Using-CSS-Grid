@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nonprofit Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #f5f5f5;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9vciUyMGNoaWxkfGVufDB8fDB8fHww') no-repeat center/cover;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            background: yellow;
+            border: none;
+            padding: 12px 25px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 25px;
+        }
+        .features-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px;
+            background: rgb(113, 180, 201);
+        }
+        .feature {
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 220px;
+            border-radius: 10px;
+        }
+        .feature img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .section {
+            text-align: center;
+            padding: 60px 20px;
+            background: url('https://thumbs.dreamstime.com/b/little-girl-boy-pet-their-corgi-puppy-outside-cute-kids-casual-clothes-laughing-playing-dog-happy-smiling-338673300.jpg');
+        }
+        .section button {
+            background: yellow;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        .core-values-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: white;
+        }
+        .core-values-section h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .core-values {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .core-value {
+            display: flex;
+            align-items: center;
+            background: rgb(250, 246, 246);
+            padding: 15px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            font-size: 18px;
+        }
+        .core-value span {
+            background: yellow;
+            padding: 10px;
+            border-radius: 50%;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>WE LOVE ALL PEOPLE</h1>
+        <p>We are a group of retired doctors working to improve the health of children in Africa.</p>
+        <div class="buttons">
+            <button>OUR MISSION</button>
+            <button>DONATE NOW</button>
+        </div>
+    </div>
+    <div class="features-container">
+        <div class="feature">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtlmgPtjIBqzPegasCyxx7k5bjyiAAeIoyHg&s" alt="Food">
+            <h3>Healthy Food</h3>
+            <p>Ensuring children receive nutritious meals.</p>
+        </div>
+        <div class="feature">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjoabk50VjlbcagfKEvVwLCLPBQSxP8fHMKg&s" alt="Water">
+            <h3>Pure Water</h3>
+            <p>Providing clean drinking water.</p>
+        </div>
+        <div class="feature">
+            <img src="https://www.shutterstock.com/image-vector/colored-hand-sketch-young-female-600nw-2125635608.jpg" alt="Medical">
+            <h3>Medical Facilities</h3>
+            <p>Access to proper healthcare.</p>
+        </div>
+        <div class="feature">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ30r9T-DsxJwLnLkUwu800Unu0C7oD6p4BJA&s" alt="Education">
+            <h3>Pure Education</h3>
+            <p>Enhancing learning opportunities.</p>
+        </div>
+    </div>
+    <div class="section">
+        <h2>What we are doing now</h2>
+        <p>Our organization is actively working on improving the lives of underprivileged children.</p>
+        <button>JOIN US</button>
+    </div>
+    <div class="core-values-section">
+        <h2>Our Core Values</h2>
+        <div class="core-values">
+            <div class="core-value"><span>✔</span> Service beyond self</div>
+            <div class="core-value"><span>✔</span> Sustainability</div>
+            <div class="core-value"><span>✔</span> Empowerment</div>
+            <div class="core-value"><span>✔</span> Integrity</div>
+            <div class="core-value"><span>✔</span> Accountability</div>
+            <div class="core-value"><span>✔</span> Transparency</div>
+        </div>
+    </div>
+</body>
+</html>
